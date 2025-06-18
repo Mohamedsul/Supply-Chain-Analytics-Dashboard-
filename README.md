@@ -1,120 +1,150 @@
-## Supply Chain Analytics Dashboard 🚚📊
+## 🚚📊 Supply Chain Analytics Dashboard
 
+A dynamic Power BI dashboard designed to transform raw supply chain data into actionable insights. This tool enables real-time performance monitoring and data-driven decision-making for logistics optimization and business growth.
 
-A comprehensive Power BI dashboard that transforms raw supply chain data into actionable business insights, enabling data-driven decision making for logistics optimization and performance monitoring.
-Show Image
 ### 🎯 Project Overview
-This project analyzes supply chain operations across multiple regions, delivering real-time insights into delivery performance, customer behavior, and business profitability. Built with Microsoft Power BI, the dashboard serves as a centralized hub for monitoring KPIs and identifying optimization opportunities.
-Key Features
 
-Real-time KPI monitoring with automated alerts
-Interactive visualizations with drill-down capabilities
-Geographic performance analysis across global markets
-Customer segmentation and behavior insights
-Predictive analytics for delivery optimization
-Mobile-responsive design for on-the-go access
+This project provides a comprehensive analysis of supply chain operations across multiple regions, focusing on delivery performance, customer behavior, and profitability. The dashboard is built in Microsoft Power BI, serving as a centralized hub for KPI monitoring and operational optimization.
+
+**Key Features:**
+
+* **Real-Time KPI Tracking**: Stay updated with automated alerts.
+* **Interactive Visualizations**: Drill down into detailed insights.
+* **Geographic Analysis**: Assess regional performance globally.
+* **Customer Insights**: Segment behavior for tailored strategies.
+* **Predictive Analytics**: Optimize delivery and logistics forecasts.
+* **Mobile-Friendly Design**: Access insights anytime, anywhere.
+
+---
 
 ### 📈 Business Impact
-MetricImprovementBusiness ValueOn-Time Delivery Rate40.8% Indicates current delivery performance; highlights need for operational improvements to boost customer satisfaction and reduce delays
-🛠️ Technology Stack
 
-Microsoft Power BI - Dashboard development and visualization
-DAX (Data Analysis Expressions) - Advanced calculations and measures
-Power Query - Data transformation and cleaning
-SQL - Data extraction and preprocessing
-Excel - Initial data exploration and validation
+| Metric                              | Improvement | Business Value                                                                                                                      |
+| ----------------------------------- | ----------- | ----------------------------------------------------------------------------------------------------------------------------------- |
+| **Real-Time On-Time Delivery Rate** | **40.8%**   | Indicates current performance; highlights the need for operational improvements to enhance customer satisfaction and reduce delays. |
+
+---
+
+### 🛠️ Technology Stack
+
+* **Microsoft Power BI**: Dashboard creation and visualization.
+* **DAX (Data Analysis Expressions)**: Advanced measures and calculations.
+* **Power Query**: Data cleaning and transformation.
+* **SQL**: Data extraction and preparation.
+* **Excel**: Data validation and exploratory analysis.
+
+---
 
 ### 📊 Dashboard Components
-🔥 Executive KPIs
-📍 On-Time Delivery Rate: 40.8%
-💰 Total Sales Revenue: $35.85M  
-⏱️ Average Shipping Time: 3.50 days
-📈 Profit Margin: 10.79%
-📋 Core Visualizations
 
-Delivery Status Overview - Real-time shipping performance breakdown
-Geographic Performance Map - Regional delivery efficiency analysis
-Sales Trend Analysis - Revenue patterns and forecasting
-Customer Segmentation - Behavior analysis by segment type
-Product Category Performance - Sales and profitability by category
-Shipping Performance Trends - Actual vs. scheduled delivery comparison
+🔥 **Core KPIs**
+
+* **On-Time Delivery Rate**: 40.8%
+* **Total Sales Revenue**: \$35.85M
+* **Average Shipping Time**: 3.50 days
+* **Profit Margin**: 10.79%
+
+📋 **Key Visualizations**
+
+* **Delivery Performance Overview**: Real-time shipping trends.
+* **Geographic Analysis**: Regional delivery efficiency.
+* **Sales Trends**: Revenue growth and forecasting.
+* **Customer Behavior**: Insights by segmentation.
+* **Product Performance**: Profitability by category.
+
+---
 
 ### 🗂️ Data Architecture
-Source Data
 
-Primary Dataset: 50 + columns of transactional data
-Supporting Files: Field descriptions and product classifications
-Data Volume: 50,000+ orders across 6 regions
+**Source Data:**
 
-Data Pipeline
-mermaidgraph LR
-    A[Raw CSV Files] --> B[Data Cleaning]
-    B --> C[Power Query Transformation]
-    C --> D[Data Model Creation]
-    D --> E[DAX Calculations]
-    E --> F[Dashboard Visualizations]
-    F --> G[User Interface]
-Key Transformations
+* **Primary Dataset**: 50+ columns of transactional data.
+* **Supporting Files**: Field descriptions and product classifications.
+* **Volume**: 50,000+ orders across six regions.
 
-Removed sensitive data (passwords, emails, personal details)
-Standardized geographic information (city, state, country)
-Created calculated fields for performance metrics
-Implemented date hierarchies for time-based analysis
+**Data Pipeline:**
+
+```mermaid
+graph LR  
+A[Raw CSV Files] --> B[Data Cleaning]  
+B --> C[Power Query Transformation]  
+C --> D[Data Model Creation]  
+D --> E[DAX Calculations]  
+E --> F[Dashboard Visualizations]  
+F --> G[User Interface]  
+```
+
+**Key Transformations:**
+
+* Removed sensitive information (e.g., emails, passwords).
+* Standardized geographic fields (city, state, country).
+* Created calculated performance metrics.
+* Implemented time-based date hierarchies.
+
+---
 
 ### 🚀 Getting Started
-Prerequisites
 
-Microsoft Power BI Desktop (latest version)
-Access to the source data files
-Basic understanding of Power BI concepts
+**Prerequisites:**
 
+* Microsoft Power BI Desktop (latest version).
+* Access to source data files.
+* Basic Power BI knowledge.
 
+---
 
 ### 📁 Repository Structure
-supply-chain-dashboard/
-│
-├── 📂 data/
-│   ├── raw_data/
-│   │   ├── supply_chain_data.csv
-│   │   ├── field_descriptions.csv
-│   │   └── product_categories.csv
-│   ├── cleaned_data/
-│   │   └── processed_supply_chain.csv
-│   └── data_dictionary.xlsx
-│
-├── 📂 powerbi/
-│   ├── supply_chain_dashboard.pbix
-│   ├── data_model.pbit
-│   └── dax_measures.txt
-│
-├── 📂 documentation/
-│   └── business_report.md
-│
-│
-├── README.md
-├── LICENSE
-└── .gitignore
 
+```
+supply-chain-dashboard/  
+├── 📂 data/  
+│   ├── raw_data/  
+│   │   ├── supply_chain_data.csv  
+│   │   ├── field_descriptions.csv  
+│   │   └── product_categories.csv  
+│   ├── cleaned_data/  
+│   │   └── processed_supply_chain.csv  
+│   └── data_dictionary.xlsx  
+├── 📂 powerbi/  
+│   ├── supply_chain_dashboard.pbix  
+│   ├── data_model.pbit  
+│   └── dax_measures.txt  
+├── 📂 documentation/  
+│   └── business_report.md  
+├── README.md  
+├── LICENSE  
+└── .gitignore  
+```
 
-🤝 Contributing
-Contributions are welcome! Please feel free to submit a Pull Request. For major changes, please open an issue first to discuss what you would like to change.
-Development Guidelines
+---
 
-Fork the repository
-Create a feature branch (git checkout -b feature/AmazingFeature)
-Commit your changes (git commit -m 'Add some AmazingFeature')
-Push to the branch (git push origin feature/AmazingFeature)
-Open a Pull Request
+### 🤝 Contributing
 
-📄 License
-This project is licensed under the MIT License - see the LICENSE file for details.
-👨‍💻 Author
-Mohamed suliman
+Contributions are welcome!
 
-🌐 Portfolio: your-portfolio.com
-💼 LinkedIn: linkedin.com/in/yourprofile
-📧 Email: Moh659@gmail.com
+* **Fork the repository.**
+* **Create a feature branch:** `git checkout -b feature/AmazingFeature`.
+* **Commit your changes:** `git commit -m 'Add AmazingFeature'`.
+* **Push the branch:** `git push origin feature/AmazingFeature`.
+* **Open a Pull Request.**
 
+---
 
-⭐ If you found this project helpful, please give it a star! ⭐
-This dashboard demonstrates advanced Power BI development skills, business intelligence expertise, and supply chain domain knowledge. Perfect for portfolio showcasing and professional development.
+### 📄 License
+
+This project is licensed under the MIT License. See the LICENSE file for details.
+
+---
+
+### 👨‍💻 Author
+
+**Mohamed Suliman**
+🌐 **Portfolio**: [[your-portfolio.com](https://your-portfolio.com)](https://mohamedsul.github.io/portfolio/)
+💼 **LinkedIn**: [[linkedin.com/in/yourprofile](https://linkedin.com/in/yourprofile)](https://www.linkedin.com/in/mohamed--suliman)
+📧 **Email**: [mohsul659@gmail.com](mailto:mohsul659@gmail.com)
+
+---
+
+⭐ **If you found this project helpful, please star this repository!** ⭐
+
+This dashboard demonstrates advanced Power BI skills, supply chain expertise, and business intelligence knowledge—perfect for showcasing professional development.
