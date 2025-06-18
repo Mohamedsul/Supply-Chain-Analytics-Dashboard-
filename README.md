@@ -1,4 +1,6 @@
-Supply Chain Analytics Dashboard 🚚📊
+## Supply Chain Analytics Dashboard 🚚📊
+
+
 A comprehensive Power BI dashboard that transforms raw supply chain data into actionable business insights, enabling data-driven decision making for logistics optimization and performance monitoring.
 Show Image
 🎯 Project Overview
