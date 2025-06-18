@@ -3,7 +3,7 @@
 
 A comprehensive Power BI dashboard that transforms raw supply chain data into actionable business insights, enabling data-driven decision making for logistics optimization and performance monitoring.
 Show Image
-🎯 Project Overview
+### 🎯 Project Overview
 This project analyzes supply chain operations across multiple regions, delivering real-time insights into delivery performance, customer behavior, and business profitability. Built with Microsoft Power BI, the dashboard serves as a centralized hub for monitoring KPIs and identifying optimization opportunities.
 Key Features
 
@@ -14,7 +14,7 @@ Customer segmentation and behavior insights
 Predictive analytics for delivery optimization
 Mobile-responsive design for on-the-go access
 
-📈 Business Impact
+### 📈 Business Impact
 MetricImprovementBusiness ValueOn-Time Delivery Rate40.8% Indicates current delivery performance; highlights need for operational improvements to boost customer satisfaction and reduce delays
 🛠️ Technology Stack
 
@@ -24,7 +24,7 @@ Power Query - Data transformation and cleaning
 SQL - Data extraction and preprocessing
 Excel - Initial data exploration and validation
 
-📊 Dashboard Components
+### 📊 Dashboard Components
 🔥 Executive KPIs
 📍 On-Time Delivery Rate: 40.8%
 💰 Total Sales Revenue: $35.85M  
@@ -39,7 +39,7 @@ Customer Segmentation - Behavior analysis by segment type
 Product Category Performance - Sales and profitability by category
 Shipping Performance Trends - Actual vs. scheduled delivery comparison
 
-🗂️ Data Architecture
+### 🗂️ Data Architecture
 Source Data
 
 Primary Dataset: 50 + columns of transactional data
@@ -61,7 +61,7 @@ Standardized geographic information (city, state, country)
 Created calculated fields for performance metrics
 Implemented date hierarchies for time-based analysis
 
-🚀 Getting Started
+### 🚀 Getting Started
 Prerequisites
 
 Microsoft Power BI Desktop (latest version)
@@ -70,7 +70,7 @@ Basic understanding of Power BI concepts
 
 
 
-📁 Repository Structure
+### 📁 Repository Structure
 supply-chain-dashboard/
 │
 ├── 📂 data/
