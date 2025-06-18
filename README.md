@@ -139,9 +139,9 @@ This project is licensed under the MIT License. See the LICENSE file for details
 ### 👨‍💻 Author
 
 **Mohamed Suliman**
-🌐 **Portfolio**: [[your-portfolio.com](https://your-portfolio.com)](https://mohamedsul.github.io/portfolio/)
-💼 **LinkedIn**: [[linkedin.com/in/yourprofile](https://linkedin.com/in/yourprofile)](https://www.linkedin.com/in/mohamed--suliman)
-📧 **Email**: [mohsul659@gmail.com](mailto:mohsul659@gmail.com)
+🌐 **Portfolio**: (https://mohamedsul.github.io/portfolio/)
+💼 **LinkedIn**:(https://www.linkedin.com/in/mohamed--suliman)
+📧 **Email**: (mailto:mohsul659@gmail.com)
 
 ---
 
